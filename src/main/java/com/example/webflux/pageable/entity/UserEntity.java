@@ -9,7 +9,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public record UserEntity (
         @Id
         String id,
-//        @NotNull
         String name,
         String email,
         Integer age
