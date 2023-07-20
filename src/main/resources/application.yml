@@ -1,0 +1,9 @@
+server:
+  port: 9001
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/test
+  mongodb:
+    embedded:
+      version: 4.0.12
